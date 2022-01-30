@@ -7,6 +7,6 @@ const ingredients = [
   "Приправы",
 ];
 
-const ulEl = document.querySelector('#ingredients');
-const list = ingredients.reduce((str, item) => str + `<li>${item}</li>`, '');
+const ulEl = document.querySelector("#ingredients");
+const list = ingredients.reduce((str, item) => str + `<li>${item}</li>`, "");
 ulEl.innerHTML = list;
